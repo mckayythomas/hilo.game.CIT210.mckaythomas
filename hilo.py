@@ -16,6 +16,7 @@ print("At the end of each turn you will decide if you would like to keep playing
 print("Deciding to discontiune means the game is over and you win as long as you have higher than 0 points.")
 
 value = 0
+#classes of players and cards
 class Card:
     def __init__(self, number):
         self.number = number
